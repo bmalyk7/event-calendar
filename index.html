@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+        <div class="main_block" >
+            <table border="1">
+                <button class="create_btn">Create new event</button>
+                <select name="" id="filter">
+                    <option value="All">All</option>
+                    <option value="Anna, Jadwiga, Anrdzej">Anna, Jadwiga, Anrdzej</option>
+                    <option value="Anastazja, Jędzrej, Dagmara">Anastazja, Jędzrej, Dagmara</option>
+                    <option value="Paulina, Dominika, Mateusz">Paulina, Dominika, Mateusz</option>
+                    <option value="Agnieska, Ola, Alex">Agnieska, Ola, Alex</option>
+                    <option value="Krzysztof, Dominik, Sebastian">Krzysztof, Dominik, Sebastian</option>
+                </select>
+                <tr>
+                 <th>Name</th>
+                 <th>Mon</th>
+                 <th>Tue</th>
+                 <th>Wed</th>
+                 <th>Thu</th>
+                 <th>Fri</th>
+                </tr>
+               
+                <tr><td class="time">10:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+    
+                <tr><td class="time">11:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+                
+                <tr><td class="time">12:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+    
+                <tr><td class="time">13:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+    
+                <tr><td class="time">14:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+    
+                <tr><td class="time">15:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+    
+                <tr><td class="time">16:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+    
+                <tr><td class="time">17:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+    
+                <tr><td class="time">18:00</td>
+                    <td>
+                        <p  class="monday"></p>
+                    </td>
+                    <td >
+                        <p class="tuesday"></p>
+                    </td>
+                    <td >
+                        <p class="wednsday"></p>
+                    </td>
+                    <td >
+                        <p class="thursday"></p>
+                    </td>
+                    <td >
+                        <p class="friday"></p>
+                    </td>
+                </tr>
+            </table>
+            
+    
+    
+    
+    
+    
+               
+        </div>
+    
+   
+
+    <div class="modal_adding">
+        <span class="warning_event" style="display: none;">Please enter name of event</span>
+        <span class="warning_time" style="display: none;">Please choose another time </span>
+           <div class="modal_content">
+            <div class="event_input choose ">
+                <span>Name of event</span>
+                <input type="text" class="event_name">
+               </div>
+               <div class="particip_input choose">
+                   <span>Participants</span>
+                   <select name="" id="participants">
+                       <option value="Anna, Jadwiga, Anrdzej">Anna, Jadwiga, Anrdzej</option>
+                       <option value="Anastazja, Jędzrej, Dagmara">Anastazja, Jędzrej, Dagmara</option>
+                       <option value="Paulina, Dominika, Mateusz">Paulina, Dominika, Mateusz</option>
+                       <option value="Agnieska, Ola, Alex">Agnieska, Ola, Alex</option>
+                       <option value="Krzysztof, Dominik, Sebastian">Krzysztof, Dominik, Sebastian</option>
+                   </select>
+               </div>
+                   <div class="day_input choose">
+                    <span>Day</span>
+                    <select name="" id="day">
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                    </select>
+                </div>
+                <div class="time_input choose">
+                    <span>Time</span>
+                    <select name="" id="time">
+                        <option value="10:00">10:00</option>
+                        <option value="11:00">11:00</option>
+                        <option value="12:00">12:00</option>
+                        <option value="13:00">13:00</option>
+                        <option value="14:00">14:00</option>
+                        <option value="15:00">15:00</option>
+                        <option value="16:00">16:00</option>
+                        <option value="17:00">17:00</option>
+                        <option value="18:00">18:00</option>
+                    </select>
+                </div>
+           </div>
+
+           <div class="btns_wrapper">
+            <button class="submit">Submit</button>
+            <button class="cancel">Cancel</button>
+           </div>
+        </div>
+        <div class="modal">
+            <div class="modal_delete">
+                <span class="quest_dlt"></span>
+                <div class="btn_wrapper">
+                    <button class="yes">yes</button>
+                    <button class="no">no</button>
+                </div>
+                    
+                </div>
+        </div>
+        
+
+
+    <script src="app.js"></script>
+</body>
+</html>
